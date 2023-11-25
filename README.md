@@ -14,9 +14,7 @@ Kemudian buat directory train dan val(validation) untuk menempatkan dataset yang
     ![img](./img/extract_file.png)
 
 - Pada langkah ini, akan menerapkan ImageDataGenerator untuk data latih dan data validasi. ImageDataGenerator merupakan sebuah fungsi yang sangat berguna untuk mempersiapkan data latih dan data validasi. Beberapa kemudahan yang disediakan ImageDataGenerator antara lain, preprocessing data, pelabelan sampel otomatis, dan augmentasi gambar.
-
 Augmentasi gambar merupakan sebuah teknik yang dapat digunakan untuk memperbanyak data latih dengan cara menduplikasi gambar yang telah ada dengan menambahkan variasi tertentu.
-
 Kode berikut menunjukkan proses augmentasi gambar pada setiap sampel di dataset.
     ![img](./img/imagedatagenerator.png)
 
