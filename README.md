@@ -12,13 +12,10 @@ Yang mana codenya dapat anda temukan [disini](./paper_rock_scissors.ipynb)
 - Ekstrak dataset yang masih berbentuk zip, kemudian arahkan kemana ingin menyimpan/mengkestrak data tersebut.
 Kemudian buat directory train dan val(validation) untuk menempatkan dataset yang nantinya akan digunakan untuk pelatihan model. Yang mana pada code di bawah ini, didefinisikan bahwa ukuran validation set 40% dari total dataset.
     ![img](./img/extract_file.png)
-
-- Pada langkah ini, akan menerapkan ImageDataGenerator untuk data latih dan data validasi. ImageDataGenerator merupakan sebuah fungsi yang sangat berguna untuk mempersiapkan data latih dan data validasi. Beberapa kemudahan yang disediakan ImageDataGenerator antara lain, preprocessing data, pelabelan sampel otomatis, dan augmentasi gambar.
-Augmentasi gambar merupakan sebuah teknik yang dapat digunakan untuk memperbanyak data latih dengan cara menduplikasi gambar yang telah ada dengan menambahkan variasi tertentu.
-Kode berikut menunjukkan proses augmentasi gambar pada setiap sampel di dataset.
+- Pada langkah ini, akan menerapkan ImageDataGenerator untuk data latih dan data validasi. ImageDataGenerator merupakan sebuah fungsi yang sangat berguna untuk mempersiapkan data latih dan data validasi. Beberapa kemudahan yang disediakan ImageDataGenerator antara lain preprocessing data, pelabelan sampel otomatis, dan augmentasi gambar. Augmentasi gambar merupakan sebuah teknik yang dapat digunakan untuk memperbanyak data latih dengan cara menduplikasi gambar yang telah ada dengan menambahkan variasi tertentu. Kode berikut menunjukkan proses augmentasi gambar pada setiap sampel di dataset
     ![img](./img/imagedatagenerator.png)
 
-- Selanjutnya, siapkan data latih dan validasi dari kumpulan data gambar yang di-load dalam memori melalui fungsi flow() berikut.
+- Selanjutnya, siapkan data latih dan validasi dari kumpulan data gambar yang di-load dalam     memori melalui fungsi flow() berikut.
     ![img](./img/data_latih_validasi.png)
 
 - Setelah data siap, maka langkah selanjutnya membangun model Convolutional Neural Network (CNN). Pembuatan model CNN pada keras mirip dengan pembuatan model Multi Layer Perceptron (MLP).
