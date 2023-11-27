@@ -1,8 +1,8 @@
 # Proyek-Klasifikasi-Gambar
 
-Pada repository kali ini saya akan menjelaskan bagaimana membuat machine learning, menggunakan 'TensorFlow'. TensorFlow sendiri merupakan software opensource yang digunakan untuk komputasi numerik dan proyek pembelajaran Machine Learning. TensorFlow dirancang oleh tim Google Brain, kegunaannya untuk memudahakan penggunaan Machine Learning.
+Pada repository kali ini saya akan menjelaskan bagaimana membuat machine learning, menggunakan `TensorFlow`. TensorFlow sendiri merupakan software opensource yang digunakan untuk komputasi numerik dan proyek pembelajaran Machine Learning. TensorFlow dirancang oleh tim Google Brain, kegunaannya untuk memudahakan penggunaan Machine Learning.
 
-TensorFlow memungkinkan developer untuk membuat 'Dataflow Graph', yang artinya struktur yang mendeskripsikan bagaimana data bergerak melalui serangkai node pemrosesan.
+TensorFlow memungkinkan developer untuk membuat `Dataflow Graph`, yang artinya struktur yang mendeskripsikan bagaimana data bergerak melalui serangkai node pemrosesan.
 
 Yang mana codenya dapat anda temukan [disini](./paper_rock_scissors.ipynb)
 - Import library yang dibutuhkan
