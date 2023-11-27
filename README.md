@@ -4,7 +4,7 @@ Pada repository kali ini saya akan menjelaskan bagaimana membuat machine learnin
 
 TensorFlow memungkinkan developer untuk membuat `Dataflow Graph`, yang artinya struktur yang mendeskripsikan bagaimana data bergerak melalui serangkai node pemrosesan.
 
-Yang mana codenya dapat anda temukan [disini](./paper_rock_scissors.ipynb)
+Yang mana codenya dapat ditemukan [disini](./paper_rock_scissors.ipynb)
 - Import library yang dibutuhkan
     ![img](./img/library.png)
 
